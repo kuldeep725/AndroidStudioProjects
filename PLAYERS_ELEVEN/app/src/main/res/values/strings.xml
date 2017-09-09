@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PLAYERS_ELEVEN</string>
+    <string name="name_text">NAME :</string>
+    <string name="enter_your_name">ENTER YOUR NAME</string>
+    <string name="age">AGE :</string>
+    <string name="email_id">EMAIL-ID :</string>
+    <string name="password">PASSWORD :</string>
+    <string name="phone_n0">PHONE N0. :</string>
+    <string name="show_details">SHOW DETAILS</string>
+</resources>

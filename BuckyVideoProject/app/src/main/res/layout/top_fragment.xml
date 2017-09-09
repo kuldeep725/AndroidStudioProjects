@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/topEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/bottomEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/topEditText"
+        android:layout_toRightOf="@+id/textView2"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bottomEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/get_meme" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top_text"
+        android:textSize="20sp"
+        android:width="100dp"
+        android:layout_alignBaseline="@+id/topEditText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="13dp"
+        android:layout_above="@+id/bottomEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_alignBaseline="@+id/bottomEditText"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:textSize="20sp"
+        android:width="120dp"
+        android:text="@string/bottom_text" />
+</RelativeLayout>

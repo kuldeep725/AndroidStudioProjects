@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="onAdminSignInButton"
+    tools:context="com.iam725.kunal.creditcard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/blue_background">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@mipmap/pink_sbi_title" />
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="58dp"
+            android:onClick="onSignUpButton"
+            android:padding="20dp"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sign_up"
+            android:layout_alignBottom="@+id/sign_up"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignRight="@+id/imageView"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:onClick="onSignInButton"
+            android:padding="20dp"
+            android:text="@string/sign_in"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/admin_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sign_up"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="98dp"
+            android:background="@null"
+            android:onClick="onAdminSignInButton"
+            app:srcCompat="@mipmap/admin_small" />
+    </RelativeLayout>
+</ScrollView>

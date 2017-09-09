@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Credit Card</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="name">Name</string>
+    <string name="admin_sign_in">ADMIN SIGN IN</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="city">City</string>
+    <string name="occupation">Occupation</string>
+    <string name="qualification">Qualification</string>
+    <string name="annual_income">Annual Income</string>
+    <string name="pan_card">Pan Card</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="delete">DELETE</string>
+    <string name="go_back">GO BACK</string>
+    <string name="new_name">NAME :</string>
+    <string name="new_date_of_birth">DATE OF BIRTH :</string>
+    <string name="new_city">CITY :</string>
+    <string name="new_occupation">OCCUPATION :</string>
+    <string name="new_qualification">QUALIFICATION :</string>
+    <string name="new_annual_income">ANNUAL INCOME :</string>
+    <string name="new_pan_card">PAN CARD :</string>
+    <string name="new_email_id">EMAIL ID :</string>
+    <string name="NEW_password">PASSWORD :</string>
+    <string name="new_phone_no">PHONE NO. :</string>
+    <string name="new_password">PASSWORD :</string>
+    <string name="member">MEMBER</string>
+</resources>
